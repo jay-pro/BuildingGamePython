@@ -1,4 +1,4 @@
-# BuildingGamePython
+# Building Game Python
 
 <p>Implemented by Bùi Hà Nhi</p>
 My bios: [Linked in](https://www.linkedin.com/in/buihanhi) [Facebook](www.facebook.com/bhanih)
