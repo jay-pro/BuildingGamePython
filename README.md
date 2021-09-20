@@ -14,5 +14,3 @@ I learned this course from Udemy: [6.5 total hours](https://www.udemy.com/share/
 Watch videos describing the result in YouTube:
 
 - The playlist:
-
-<iframe src="https://www.youtube.com/watch?v=PVe95rddvR8" width="50%" height="50%"></iframe>
