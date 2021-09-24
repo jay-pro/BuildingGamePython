@@ -1,0 +1,21 @@
+Table of Contents:
+- Introduction
+- Asking Questions
+- Project Helpful Notes
+- Project Helpfu; Steps
+- Importing needed modules for our project
+- Show colors choices to user to choose and enter a colors
+- Thanks for playing and the overall result of the Game
+- Conclusions
+
+### Introduction
+Here is some notes to help you understand how to start coding and thinks about the solution, and the solution may look completely different than the given solution that is right if it work properly. If these notes bellow isn't helpful for you, check out the "Project Walkthrough" for more explanation and help.
+
+### Project Helpful Notes:
+1. We need to create choices for players and choices for computer then ask the players for inputs.
+2. Compare their inputs with the choice of the computer.
+3. Check if the game is won, tied, lost, or ongoing.
+4. Repeat these steps untill the game has been won or tied.
+5. Ask if players want to play again.
+6. And if the player agree restart the game again.
+7. And if the player say "No" end the game and say thanks for the player.
