@@ -1,0 +1,17 @@
+1. Import the wanted Python modules
+2. Pick and save the words to be guessed as a list in Hangman_guesing.py file
+   Note: (all the words to be guessed consist of six letters)
+3. Use the imported Python module to pick a random word from the words you save
+4. Keep the game running until the game is over
+5. Apply tries to the players to use to try to win
+6. Save the game shapes in hangman_lifr.py filr and import those shapes from this file.
+7. Test the code you written until now using Python print functions
+8. Create a list contains six '_' underscores to store and save the right letter guesed by the players of the random word
+9. Iterate over the players input
+10. Inform the players about the letter they have guessed after they do
+11. Check if the guessed letters by the playes is right or wrong
+12. The players lose a try if they guessed wrong letter
+13. Iff the players lose all their tries end game and print the end game message
+14. Join all the letters which in the list of guessed letter and tủn it into string
+15. Check if the player guessed all the right letter so end game and print the win message
+16. You to print the correct shape after every players try.
