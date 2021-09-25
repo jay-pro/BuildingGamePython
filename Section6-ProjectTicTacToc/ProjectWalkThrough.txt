@@ -1,0 +1,21 @@
+X-O Game Classes project:
+
+A-create Gameboard class:
+-inside the Gameboard class we create instance odd the game board as following.
+-then we create items as items setter function.
+-create a decorator (@property) for the gameBoard function to add separate self instance for game_board:
+    1-add another function called clearboard
+    2-add another function called is_take_place
+    3-add another function called is_board_full
+    4-add another function called is_game_won
+    5-add another function to print Game Board contain if statement to control the game flow in the board
+
+B-create second class called Game: to control the game start and game end:and ask for players names:
+so Game class contain four function that control the game steps:
+    1-game start
+    2-game end and play again
+    3-game turn
+    4-game manager
+
+Finally create the game lancher of the game
+Let's build our Project....
