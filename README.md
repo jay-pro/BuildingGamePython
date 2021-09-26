@@ -1,14 +1,17 @@
 # Building Game Python
 
-<p>Implemented by Bùi Hà Nhi</p>
+Implemented by Bùi Hà Nhi
 My bios: 
+
 - [Linked in](https://www.linkedin.com/in/buihanhi)
 - [Facebook](https://www.facebook.com/bhanih)
-<p>Instructor: Tamer Ahmed (Professional Developer and Data Scientist love teaching)</p>
+
+Instructor: Tamer Ahmed (Professional Developer and Data Scientist love teaching)
 Information: 
+
 - [Linked in](https://www.linkedin.com/in/tamer-ahmed-temotec-academy/)
 
-<p>Learn to code in Python by Develop & Build Games in Python, Python Basics, Python OOP, Python Games Projects</p>
+Learn to code in Python by Develop & Build Games in Python, Python Basics, Python OOP, Python Games Projects
 
 My Udemy certificate of this:
 
