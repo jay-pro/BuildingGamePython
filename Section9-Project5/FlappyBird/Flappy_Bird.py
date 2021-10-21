@@ -18,15 +18,19 @@ game_display = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('Flappy Bird Game Clone')
 speed = pygame.time.Clock()
 
-background = pygame.image.load('assets/background-day.png').convert()
+#background = pygame.image.load('assets/background-day.png').convert()
+background = pygame.image.load("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/background-day.png").convert()
 
-base = pygame.image.load('assets/base.png').convert()
+#base = pygame.image.load('assets/base.png').convert()
+base = pygame.image.load("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/base.png").convert()
 base_x_pos = 0
 
-bird_sur = pygame.image.load('assets/yellowbird-upflap.png').convert_alpha()
+#bird_sur = pygame.image.load('assets/yellowbird-upflap.png').convert_alpha()
+bird_sur = pygame.image.load("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/yellowbird-upflap.png").convert_alpha()
 bird_rectangle = bird_sur.get_rect(center = (50, 255))
 
-pipes_list = ['assets/pipe-green.png','assets/pipe-red.png']
+#pipes_list = ['assets/pipe-green.png','assets/pipe-red.png']
+pipes_list = ["D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/pipe-green.png","D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/pipe-red.png"]
 pipe_sur = pygame.image.load(random.choice(pipes_list))
 
 pipes_list2 = []
@@ -34,15 +38,21 @@ show_pipe = pygame.USEREVENT
 pygame.time.set_timer(show_pipe, 1100)
 pipe_heights = [200, 300, 400]
 
-font = pygame.font.Font('EvilEmpire-4BBVK.ttf', 35)
+#
+font = pygame.font.Font("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/EvilEmpire-4BBVK.ttf", 35)
 
-game_over_sur = pygame.image.load('assets/gameover.png').convert_alpha()
+#
+game_over_sur = pygame.image.load("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/assets/gameover.png").convert_alpha()
 game_over_rectangle = game_over_sur.get_rect(center = (143,255))
 
-flap_sound = pygame.mixer.Sound('audio/wing.wav')
+""" flap_sound = pygame.mixer.Sound('audio/wing.wav')
 lose_sound = pygame.mixer.Sound('audio/hit.wav')
 scoring_sound = pygame.mixer.Sound('audio/point.wav')
-die_sound = pygame.mixer.Sound('audio/die.wav')
+die_sound = pygame.mixer.Sound('audio/die.wav') """
+flap_sound = pygame.mixer.Sound("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/audio/wing.wav")
+lose_sound = pygame.mixer.Sound("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/audio/hit.wav")
+scoring_sound = pygame.mixer.Sound("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/audio/point.wav")
+die_sound = pygame.mixer.Sound("D:/18110168_GITHUBS/BuildingGamePython/Section9-Project5/FlappyBird/audio/die.wav")
 
 
 
@@ -152,7 +162,7 @@ while True:
         pipes_list2 = pipes_move(pipes_list2)
         show_pipes(pipes_list2)
         score += 0.01
-        display_score('game_on')
+        display_score("game_on")
         scoring_timer -= 1
         if scoring_timer <= 0:
             scoring_sound.play()
